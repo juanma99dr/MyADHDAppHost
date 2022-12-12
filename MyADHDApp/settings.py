@@ -13,13 +13,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 
 # SECRET KEY is stored in .env file
-SECRET_KEY = config("SECRET_KEY")
+SECRET_KEY = 'django-insecure-dq8s@7lev7t$_td27+3ed_*_hx0-gl2c3*eyw&uci$dcgwj7)9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
